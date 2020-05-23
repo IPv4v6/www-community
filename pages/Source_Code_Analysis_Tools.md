@@ -59,10 +59,9 @@ vulnerabilities much later in the development cycle.
 
   - Requirement: Must support your programming language, but not usually
     a key factor once it does.
-  - Types of vulnerabilities it can detect (out of the [OWASP Top
-    Ten](OWASP_Top_Ten "wikilink")?) (plus more?)
+  - Types of vulnerabilities it can detect (out of the [OWASP Top Ten](http://owasp.org/www-project-top-ten/) (plus more?)
   - How accurate is it? False Positive/False Negative rates?
-      - Does the tool have an OWASP [Benchmark](Benchmark "wikilink")
+      - Does the tool have an OWASP [Benchmark](http://owasp.org/www-project-benchmark/)
         score?
   - Does it understand the libraries/frameworks you use?
   - Does it require a fully buildable set of source?
@@ -76,13 +75,10 @@ vulnerabilities much later in the development cycle.
 
 ## OWASP Tools Of This Type
 
-  - [OWASP SonarQube Project](OWASP_SonarQube_Project "wikilink")
-  - [OWASP Orizon
-    Project](http://www.owasp.org/index.php/Category:OWASP_Orizon_Project)
-  - [OWASP LAPSE Project](OWASP_LAPSE_Project "wikilink")
-  - [OWASP O2 Platform](OWASP_O2_Platform "wikilink")
-  - [OWASP WAP-Web Application
-    Protection](OWASP_WAP-Web_Application_Protection "wikilink")
+  - [OWASP SonarQube Project](https://github.com/OWASP/sonarqube)
+  - [OWASP Orizon Project](http://www.owasp.org/index.php/Category:OWASP_Orizon_Project)
+  - [OWASP LAPSE Project](https://github.com/OWASP/lapse-plus)
+  - [OWASP O2 Platform](http://owasp.org/www-project-o2-platform/)
 
 ## Disclaimer
 
@@ -139,6 +135,7 @@ every effort to correct this information.</b>
     location of a finding, type and remediation advice. The tool currently 
     supports Python, Ruby, JS (Node, Angular, JQuery, etc) , PHP, Perl, 
     COBOL, APEX & a few more. 
+  - [Insider CLI](https://github.com/insidersec/insider) - A open source Static Application Security Testing tool (SAST)     written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
   - [LGTM](https://lgtm.com/help/lgtm/about-lgtm) - A free for open
     source static analysis service that automatically monitors commits
     to publicly accessible code in: Bitbucket Cloud, GitHub, or GitLab.
@@ -219,7 +216,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     (HCL Software) - Static application security testing solution that helps identify vulnerabilities early in the development lifecycle, understand their origin and potential impact and remediate the problem
   - [BlueClosure BC Detect](https://www.blueclosure.com) (BlueClosure) -
     Analyzes client-side JavaScript.
-  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formally Buguroo)
+  - [bugScout](https://bugscout.io/en/) (Nalbatech, Formerly Buguroo)
   - [CAST
     AIP](https://www.castsoftware.com/products/application-intelligence-platform)
     (CAST) Performs static and architectural analysis to identify
@@ -247,7 +244,7 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
   - [CxSAST](https://www.checkmarx.com/technology/static-code-analysis-sca/)
     (Checkmarx)
   - [Fortify](https://www.microfocus.com/en-us/products/static-code-analysis-sast)
-    (Micro Focus, Formally HP)
+    (Micro Focus, Formerly HP)
   - [Hdiv
     Detection](https://hdivsecurity.com/interactive-application-security-testing-iast)
     (Hdiv Security) - Hdiv performs code security without actually doing
@@ -280,8 +277,10 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
     static source code analyzer that runs as a Visual Studio IDE
     extension, Azure DevOps extension, and Command Line (CLI)
     executable.
-  - [PVS-Studio](http://www.viva64.com/en/) (PVS-Studio) - For C/C++,
-    C\#
+  - [PVS-Studio](http://www.viva64.com/en/) - PVS-Studio is a tool
+    for detecting bugs and security weaknesses in the source code of programs
+    written in C, C++, C#, and Java.
+    It is a commercial B2B solution, but provides several free [licensing options](https://www.viva64.com/en/b/0614/).
   - [reshift](https://www.reshiftsecurity.com) - A CI/CD tool that uses
     static code analysis to scan for vulnerabilities and uses machine
     learning to give a prediction on false positives. Supports Java with
@@ -320,17 +319,6 @@ Static Analysis](https://endler.dev/awesome-static-analysis/)
 
 ## More info
 
-  - [Appendix A: Testing Tools](Appendix_A:_Testing_Tools "wikilink")
-  - [NIST's list of Source Code Security Analysis
-    Tools](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
-  - [DAST Tools](:Category:Vulnerability_Scanning_Tools "wikilink") -
-    Similar info on Dynamic Application Security Testing (DAST) Tools
-  - [Free for Open Source Application Security
-    Tools](Free_for_Open_Source_Application_Security_Tools "wikilink") -
-    This page lists the Commercial Source Code Analysis Tools (SAST) we
-    know of that are free for Open Source
-
-__NOTOC__
-
-[Category:OWASP .NET Project](Category:OWASP_.NET_Project "wikilink")
-[Category:SAMM-CR-2](Category:SAMM-CR-2 "wikilink")
+  - [NIST's list of Source Code Security Analysis Tools](http://samate.nist.gov/index.php/Source_Code_Security_Analyzers.html)
+  - [DAST Tools](/www-community/Vulnerability_Scanning_Tools) - Similar info on Dynamic Application Security Testing (DAST) Tools
+  - [Free for Open Source Application Security Tools](/www-community/Free_for_Open_Source_Application_Security_Tools) - This page lists the Commercial Source Code Analysis Tools (SAST) we know of that are free for Open Source
